@@ -1,15 +1,16 @@
 {
-  "name": "conduit-node",
+  "name": "shareit-node",
   "version": "1.0.0",
-  "description": "conduit on node",
+  "description": "shareit on node",
   "main": "app.js",
   "scripts": {
     "start": "node ./app.js",
+    "dev": "nodemon ./app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gothinkster/productionready-node-api.git"
+    "url": "git+https://github.com/jpogah/shareit.git"
   },
   "license": "ISC",
   "dependencies": {
